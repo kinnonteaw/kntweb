@@ -1,0 +1,36 @@
+/////////////////////////////////
+Create Collections
+/////////////////////////////////
+<----------- User --------------->
+({
+    name : {title: String, first: String, last : String},
+    email : String,
+    
+    comments: [{ body: String, date: Date }],
+      birthdate: { type: Date, default: Date.now },
+      hidden: Boolean,
+      meta: {
+        votes: Number,
+        favs:  Number 
+      }
+})
+
+<----------- Poi --------------->
+({
+     
+}
+
+<----------- Review --------------->
+({
+     PoiId : Int,
+     Comment:{
+        UserId : Int,
+        UserName: String,
+        CommentText: String,
+        CommentDate: DateTime,
+        Likes: int,
+        Reply: {}
+     },
+     
+})
+

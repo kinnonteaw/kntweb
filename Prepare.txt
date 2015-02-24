@@ -1,0 +1,19 @@
+Prepare Project
+
+NodeJS
+- npm install -g express-generator
+
+ex: เวลาสร้าง Project ใหม่ เรียก express <directory/proj_folder> express ก็จะทำการสร้างโปรเจคที่ชื่อ proj_folder พร้อม import express มาให้เรียบร้อย
+
+- npm install
+- npm install mongodb
+- npm install bson
+- npm install kerberos
+- npm install readable-stream
+- npm update
+
+
+
+
+MongoDB
+- 

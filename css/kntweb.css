@@ -1,0 +1,29 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+#div-header {
+    height: 100px;
+    background-color: #808080;
+    <!-- margin-top: -20px;
+    -->
+}
+
+#div-body {
+    height: auto;
+    margin-top: 0px;
+}
+
+#div-body #DisplaySearchResultModal {
+    float: none;
+}
+
+#div-body #DisplaySearchResultModal .ResultModal {}
+
+#div-footer {
+    height: 500px;
+    width: 100%;
+    background-color: #808080;
+    margin-top: 0px;
+}

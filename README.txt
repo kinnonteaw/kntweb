@@ -1,0 +1,3 @@
+- Using NodeJS server E:\KZHWEB_NODEJS
+- npm install
+- npm install mongodb
