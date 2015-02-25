@@ -3,7 +3,7 @@ Prepare Project
 NodeJS
 - npm install -g express-generator
 
-ex: เวลาสร้าง Project ใหม่ เรียก express <directory/proj_folder> express ก็จะทำการสร้างโปรเจคที่ชื่อ proj_folder พร้อม import express มาให้เรียบร้อย
+ex: เวลาสร้าง Project ใหม่ เรียก express <directory/proj_folder> เสร็จแล้ว enter จากนัน express ก็จะสร้างโปรเจคที่ชื่อ proj_folder (และใน directory ที่กำหนด ถ้ามี) พร้อม import package ที่พร้อมใช้งาน express มาให้เรียบร้อย
 
 - npm install
 - npm install mongodb
@@ -12,8 +12,7 @@ ex: เวลาสร้าง Project ใหม่ เรียก express <di
 - npm install readable-stream
 - npm update
 
-
-
-
 MongoDB
-- 
+- สร้าง folder MongoDBDatabase (หรือ อาจจะเป็นชื่ออื่น) และสร้าง sub-folder ชื่อ data ใน folder MongoDBDatabase
+- เรียก command promt ขึ้นมาไปเรียก C:\Program Files\MongoDB 2.6 Standard\bin>mongod --dbpath E:\MongoDBDatabase\data
+- MongoDB จะเริ่มทำงานฐานข้อมูล
